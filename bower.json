@@ -1,0 +1,21 @@
+{
+  "name": "2048",
+  "description": "2048 game",
+  "main": "index.js",
+  "authors": [
+    "Sailor",
+    "Zhichao"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "2048"
+  ],
+  "homepage": "https://github.com/SailorZhang/2048",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

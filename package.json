@@ -1,0 +1,25 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "2048 game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SailorZhang/2048.git"
+  },
+  "keywords": [
+    "2048"
+  ],
+  "author": "Sailor, Zhichao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SailorZhang/2048/issues"
+  },
+  "homepage": "https://github.com/SailorZhang/2048#readme",
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
+}
