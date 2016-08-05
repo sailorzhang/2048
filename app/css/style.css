@@ -1,0 +1,64 @@
+body{
+  font-family:Arial,Helvetica,sans-serif!important;
+}
+#gridContainer{
+  width: 460px;
+  height: 460px;
+  background: rgb(205,191,178);
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 13px #ccc;
+  padding: 15px;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+#gridContainer .grid{
+  width: 100px;
+  height: 100px;
+  background: rgb(152,144,125);
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 60px;
+  color: #222;
+}
+#header{
+  width: 460px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+#header h1{
+  margin:0;
+  font-size: 50px;
+  color: #666;
+}
+.scorePanel{
+  color: #666;
+}
+.scorePanel .title{
+  font-size: 26px;
+}
+.scorePanel .score{
+  font-size: 30px;
+}
+div.btnRow{
+  width: 460px;
+  margin: 0 auto;
+  text-align: center;
+}  
+a.btn{
+  display: inline-block;
+  background: #8b7967;
+  padding: 10px 50px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 35px;
+  font-size: Arial;
+  border-radius: 3px;
+}

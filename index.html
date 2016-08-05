@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>2048</title>
+<meta charset="UTF-8">
+<title>2048</title>
+<link type="text/css" rel="stylesheet" href="app/css/style.css"/>
+<script type="text/javascript" src="bower_components/jQuery/dist/jquery.js"></script>
+<script type="text/javascript" src="app/js/main.js"></script>
+<script type="text/javascript">
+$(function(){
+	newGame();
+})
+</script>
 </head>
 <body>
-	
+<div id="header">
+	<h1 class="title">2048</h1>
+	<div class="scorePanel"><span class="title">score:</span><span class="score">0</span></div>
+</div>
+<div id="gridContainer">
+	<div class="grid" id="grid-1"></div>
+	<div class="grid" id="grid-2"></div>
+	<div class="grid" id="grid-3"></div>
+	<div class="grid" id="grid-4"></div>
+	<div class="grid" id="grid-5"></div>
+	<div class="grid" id="grid-6"></div>
+	<div class="grid" id="grid-7"></div>
+	<div class="grid" id="grid-8"></div>
+	<div class="grid" id="grid-9"></div>
+	<div class="grid" id="grid-10"></div>
+	<div class="grid" id="grid-11"></div>
+	<div class="grid" id="grid-12"></div>
+	<div class="grid" id="grid-13"></div>
+	<div class="grid" id="grid-14"></div>
+	<div class="grid" id="grid-15"></div>
+	<div class="grid" id="grid-16"></div>
+</div>
+<div id="gridContainer2"></div>
+<div class="btnRow">
+	<a href="" id="gameStart" class="btn">New Game</a>
+</div>
 </body>
 </html>
